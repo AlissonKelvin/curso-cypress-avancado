@@ -1,3 +1,5 @@
+import {faker} from '@faker-js/faker'
+
 describe('Hacker Stories', () => {
   beforeEach(() => {
     cy.visit('/')
@@ -124,7 +126,6 @@ describe('Hacker Stories', () => {
       })
 
       it('shows a max of 5 buttons for the last searched terms', () => {
-        const faker = require('faker')
 
         Cypress._.times(6, () => {
           cy.get('#search')
