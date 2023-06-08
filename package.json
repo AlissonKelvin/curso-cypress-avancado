@@ -33,7 +33,7 @@
   "homepage": "https://github.com/wlsf82/curso-cypress-avancado#readme",
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
-    "cypress": "^12.13.0",
+    "cypress": "^12.14.0",
     "cypress-localstorage-commands": "^2.2.3",
     "standardjs": "^1.0.0-alpha"
   }
